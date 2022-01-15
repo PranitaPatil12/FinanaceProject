@@ -11,3 +11,9 @@ def nav_view(req):
 
 def feature_view(req):
     return render(req,'features.html')
+
+def fees_charges_view(req):
+    return render(req,'fees_charges.html')
+
+def req_doc_view(req):
+    return render(req,'RequiredDocs.html')

@@ -1,54 +1,25 @@
 {% extends 'navbar_loan.html' %}
 {% block nav_items %}
-<div>
-<style>
-.customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%
-}
-
-.customers td, #customers th {
-  border: 1px solid silver;
-  padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.customers tr:nth-child(odd){background-color: #f2f2f2;}
-
-
-
-.customers th {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: left;
-  background-color:blueviolet;
-  color: white;
-}
-h3{color:black}
-
-
-</style>
-</div>
+{% load static %}
 
 
 <div class="container">
-    <h3 style="text-align:center">Fees and Charges</h3>
-<h4>List of The Charges Implied </h4>
-<p style="font-size:medium;">Knowing the fees and charges not only gives you further details pertaining to your loan, but also helps you plan your finances better. Are you confused about the fees and charges associated with personal loans? Run through the complete list of related costs mentioned below and understand the charges implied on personal loans at Bank.
+    <br><br>
+    <h3 style="text-align:center; color: black;">Fees and Charges</h3>
+    <hr>
+<h4 style="color: black;">List of The Charges Implied </h4>
+<p >Knowing the fees and charges not only gives you further details pertaining to your loan, but also helps you plan your finances better. Are you confused about the fees and charges associated with personal loans? Run through the complete list of related costs mentioned below and understand the charges implied on personal loans at Bank.
 
 </p><br>
-<div class="container">
-<table id="customers" style="margin: 0px auto;">
+
+<table class="table table-striped">
   <tr>
     <th>Loan</th>
     <th>Personal Loan</th>
 
   </tr>
   <tr>
-    <td>Fixed Intrest Rate</td>
+    <td>Fixed Interest Rate</td>
     <td>Starting from 10.25 p.a.</td>
 
   </tr>
@@ -130,11 +101,12 @@ h3{color:black}
   </table><br><br>
 
 
-    <h3 style="text-align: center;">Personal Loan Overdraft</h3><br>
-    <table id="customers"  style="margin: 0px auto;">
+    <h3 style="text-align: center;color: black;">Personal Loan Overdraft</h3><br>
+    <table class="table table-striped"  >
       <tr>
         
         <th colspan="2">Charges specific to Personal Loan Overdraft facility</th>
+
 
       </tr>
       <tr>
@@ -175,34 +147,33 @@ h3{color:black}
 
  
   </table><br><br>
-  <h4>Documents Required For Personal Loan</h4>
+  <h4 style="color: black;">Documents Required For Personal Loan</h4>
       <p>The documents required to avail a personal loan from Bank are dependent on many different factors that detail crucial information like identity proof, proof of residence, bank details and business details. As we believe in minimal paperwork, the documentation processes while providing personal loans are smooth and easy.
 
         Find out the detailed list of personal loan documents that are required to avail personal loan.</p>
     <br><br>
 
-    <h4>Know Your EMIs and Available Repayment Options</h4>
+    <h4 style="color: black;">Know Your EMIs and Available Repayment Options</h4>
     <p>You can avail attractive interest rate and enjoy different repayment options on  Bank personal loan. However, it is only a smarter move to put our EMI Calculator at use, and get a clearer understanding of your EMI figures before taking a personal loan. Calculate your EMI accurately with the help of Bank Personal loan EMI Calculator. Select the loan requirement, get a pre-determined interest rate, and select the loan repayment tenure, between 12 to 60 months and view results in seconds!</p>
     <br><br>
-    <h4>Why avail a Personal Loan from Bank?</h4>
+    <h4 style="color: black;">Why avail a Personal Loan from Bank?</h4>
     <div>Are you looking for a quick personal loan alongside a seamless banking experience? Let us give you 7 good reasons to opt for a personal loan from Bank without any second thoughts!
-<ul>
-<li>Browse and apply for personal loan online</li><li>Browse and apply for personal loan online</li>
-<li>Check personal loan eligibility online</li>
-<li>Quick and minimal paperwork</li>
-<li>Fast approval and speedy disbursal of loan. Disbursal TAT as “within 3 secn un” or “ider 3 secs”. </li>
-<li> Avail personal loan from Rs.50000 up to Rs.25 Lakh</li>
-<li>Attractive interest rate and easy loan repayment options </li>
-<li>The ability to obtain personal loan instantly in commercial cities of India </li>
+<p>
+        <ul style="list-style-type: square">
+    <li>Browse and apply for personal loan online</li>
+    <li>Browse and apply for personal loan online</li>
+    <li>Check personal loan eligibility online</li>
+    <li>Quick and minimal paperwork</li>
+    <li>Fast approval and speedy disbursal of loan. Disbursal TAT as “within 3 secn un” or “ider 3 secs”. </li>
+    <li> Avail personal loan from Rs.50000 up to Rs.25 Lakh</li>
+    <li>Attractive interest rate and easy loan repayment options </li>
+    <li>The ability to obtain personal loan instantly in commercial cities of India </li>
+</ul>
+        </p>
+        <br>
+        <p>Know more details about availing a<b> personal loan</b> from  Bank. </p>
+</div>
+</div>
+</div>
+{% endblock %}
 
-<br>
-
-<br></ul></li>
-<p>Know more details about availing a personal loan from  Bank. </p>
-</div></div></div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-</body>
-</html>
