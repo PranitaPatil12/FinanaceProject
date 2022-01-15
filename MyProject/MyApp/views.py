@@ -8,3 +8,6 @@ def eligibility_view(request):
 
 def nav_view(req):
     return render(req,'navbar_loan.html')
+
+def feature_view(req):
+    return render(req,'features.html')
